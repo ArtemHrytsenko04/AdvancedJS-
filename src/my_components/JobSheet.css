@@ -1,0 +1,30 @@
+@media print {
+    .container {
+      color: #000;
+      font-family: Arial, sans-serif;
+    }
+  
+    hr {
+      border-top: 1px solid #333;
+    }
+  
+    .fw-bold {
+      font-weight: bold;
+    }
+  
+    .text-uppercase {
+      text-transform: uppercase;
+    }
+  
+    .table {
+      width: 100%;
+      margin-bottom: 1rem;
+      border-collapse: collapse;
+    }
+  
+    .table-bordered th,
+    .table-bordered td {
+      border: 1px solid #333 !important;
+    }
+  }
+  
